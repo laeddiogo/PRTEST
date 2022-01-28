@@ -16,6 +16,7 @@ namespace ConsoleApp1
             hosts.Add(2,"api");
             hosts.Add(3,"api");
             hosts.Add(4,"api");
+            hosts.Add(5, "basePR");
 
             bool p = hosts.Remove(8);
             string t = hosts[1];
