@@ -46,6 +46,7 @@
     <Compile Include="A.cs" />
     <Compile Include="B.cs" />
     <Compile Include="ChildPR1BasePR.cs" />
+    <Compile Include="ChildPR2BasePR.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
