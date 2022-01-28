@@ -18,6 +18,8 @@ namespace ConsoleApp1
             hosts.Add(4,"api");
             hosts.Add(5, "basePR");
             hosts.Add(5, "ChildPR1-basePR");
+            hosts.Add(5, "A");
+            hosts.Add(5, "B"); 
 
 
             bool p = hosts.Remove(8);
