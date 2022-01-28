@@ -13,6 +13,7 @@ namespace ConsoleApp1
             Dictionary<int, string> hosts = new Dictionary<int, string>();
 
             hosts.Add(1,"master");
+            hosts.Add(1, "c");
 
             bool p = hosts.Remove(8);
             string t = hosts[1];
