@@ -19,7 +19,7 @@ namespace ConsoleApp1
             hosts.Add(5, "basePR");
             hosts.Add(5, "ChildPR1-basePR");
             hosts.Add(5, "A");
-            hosts.Add(5, "B");
+            hosts.Add(5, "B"); 
 
             bool p = hosts.Remove(8);
             string t = hosts[1];
