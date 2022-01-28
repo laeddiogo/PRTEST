@@ -21,6 +21,7 @@ namespace ConsoleApp1
             hosts.Add(5, "A");
             hosts.Add(5, "B"); 
 
+
             bool p = hosts.Remove(8);
             string t = hosts[1];
             Console.WriteLine("t");
