@@ -12,15 +12,7 @@ namespace ConsoleApp1
         {
             Dictionary<int, string> hosts = new Dictionary<int, string>();
 
-            hosts.Add(1,"api");
-            hosts.Add(2,"api");
-            hosts.Add(3,"api");
-            hosts.Add(4,"api");
-            hosts.Add(5, "basePR");
-            hosts.Add(5, "ChildPR1-basePR");
-            hosts.Add(5, "A");
-            hosts.Add(5, "B"); 
-
+            hosts.Add(1,"master");
 
             bool p = hosts.Remove(8);
             string t = hosts[1];
